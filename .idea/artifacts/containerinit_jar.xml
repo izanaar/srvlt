@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="containerinit:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/containerinit_jar</output-path>
+    <root id="archive" name="containerinit.jar">
+      <element id="module-output" name="containerinit" />
+      <element id="directory" name="META-INF">
+        <element id="directory" name="services">
+          <element id="file-copy" path="$PROJECT_DIR$/containerinit/init/javax.servlet.ServletContainerInitializer" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

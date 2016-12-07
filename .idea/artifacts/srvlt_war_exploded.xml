@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="srvlt:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/srvlt_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="artifact" artifact-name="containerinit:jar" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="servlets" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
